@@ -1,4 +1,61 @@
 body{
   background-color: black;
   color: white;
+   font-family: "Comic Sans MS", cursive;
+}
+
+.historia{
+    text-align: center;
+    background-color: aqua;
+    width: 600px;
+    height: 40px;
+}
+
+.primeirossatelites{
+    text-align: center;
+}
+
+.primeirosfoguetes{
+    background-color: blue;
+    text-align: center;
+}
+
+.satelites{
+    text-align: center;
+    background-color: gray;
+}
+
+.importantes{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagens img {
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid blueviolet;
+    box-sizing: border-box;
+}
+    
+.imagens2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagens2 img{
+    width: 30%;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid gray;
+    box-sizing: border-box;
 }
