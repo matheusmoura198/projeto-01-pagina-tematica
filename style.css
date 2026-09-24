@@ -59,3 +59,60 @@ body{
     border: 5px solid gray;
     box-sizing: border-box;
 }
+
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 25px;
+        width: 98%;
+        margin: 15px auto;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 1500px;
+        margin: 20px auto;
+    }
+
+    .imagens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .imagens img {
+        width: 32%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    ul {
+        max-width: 1400px;
+        margin: 20px auto;
+        padding: 0 30px;
+    }
+
+    li {
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        width: 98%;
+        margin: 25px auto;
+    }
+}
